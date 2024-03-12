@@ -1,0 +1,30 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+<<<<<<< HEAD
+    "public": "public",
+=======
+    "public": "build",
+>>>>>>> feature/assignment3
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+<<<<<<< HEAD
+=======
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+>>>>>>> feature/assignment3
+    ]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
